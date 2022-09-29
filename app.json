@@ -7,10 +7,6 @@
   "environments": {
     "review": {
       "formation": {
-        "worker": {
-          "quantity": 1,
-          "size": "hobby"
-        },
         "web": {
           "quantity": 1,
           "size": "hobby"
