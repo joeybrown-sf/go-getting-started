@@ -3,15 +3,5 @@
   "description": "Go Getting Started Example App",
   "keywords": ["getting-started", "go", "sample", "example"],
   "website": "http://github.com/heroku/go-getting-started",
-  "repository": "http://github.com/heroku/go-getting-started",
-  "environments": {
-    "review": {
-      "formation": {
-        "web": {
-          "quantity": 1,
-          "size": "hobby"
-        }
-      }
-    }
-  }
+  "repository": "http://github.com/heroku/go-getting-started"
 }
