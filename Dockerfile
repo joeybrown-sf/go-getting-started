@@ -1,8 +1,5 @@
 FROM heroku/heroku:20-build as build
 
-
-
-
 COPY . /app
 WORKDIR /app
 
