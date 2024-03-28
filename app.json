@@ -11,6 +11,12 @@
     "sample",
     "example"
   ],
+  "formation": {
+    "web": {
+      "quantity": 1,
+      "size": "Basic"
+    }
+  },
   "website": "http://github.com/heroku/go-getting-started",
   "repository": "http://github.com/heroku/go-getting-started"
 }
