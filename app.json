@@ -2,8 +2,10 @@
   "name": "Start on Heroku: Go",
   "description": "Go Getting Started Example App",
   "scripts": {
-    "postdeploy": "echo 'hello'",
-    "size": "standard-2x"
+    "postdeploy": {
+      "command": "echo 'hello'",
+      "size": "standard-2x"
+    }
   },
   "keywords": [
     "getting-started",
