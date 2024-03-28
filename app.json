@@ -3,7 +3,7 @@
   "description": "Go Getting Started Example App",
   "scripts": {
     "postdeploy": "echo 'hello'",
-    "size": "Standard-2X"
+    "size": "standard-2x"
   },
   "keywords": [
     "getting-started",
@@ -14,7 +14,7 @@
   "formation": {
     "web": {
       "quantity": 1,
-      "size": "Basic"
+      "size": "basic"
     }
   },
   "website": "http://github.com/heroku/go-getting-started",
