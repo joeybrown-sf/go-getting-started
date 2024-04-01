@@ -4,19 +4,14 @@
   "scripts": {
     "postdeploy": {
       "command": "echo 'hello'",
-      "size": "standard-2x"
+      "size": "performance-m"
     }
   },
-  "keywords": [
-    "getting-started",
-    "go",
-    "sample",
-    "example"
-  ],
+  "keywords": ["getting-started", "go", "sample", "example"],
   "formation": {
     "web": {
       "quantity": 1,
-      "size": "standard-1x"
+      "size": "performance-m"
     }
   },
   "website": "http://github.com/heroku/go-getting-started",
