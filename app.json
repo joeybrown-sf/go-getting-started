@@ -2,10 +2,7 @@
   "name": "Start on Heroku: Go",
   "description": "Go Getting Started Example App",
   "scripts": {
-    "postdeploy": {
-      "command": "echo 'hello'",
-      "size": "standard-2x"
-    }
+    "postdeploy": "bin/postdeploy.sh"
   },
   "keywords": [
     "getting-started",
@@ -13,12 +10,6 @@
     "sample",
     "example"
   ],
-  "formation": {
-    "web": {
-      "quantity": 1,
-      "size": "standard-1x"
-    }
-  },
   "website": "http://github.com/heroku/go-getting-started",
   "repository": "http://github.com/heroku/go-getting-started"
 }
