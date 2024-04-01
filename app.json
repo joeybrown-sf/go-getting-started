@@ -2,7 +2,7 @@
   "name": "Start on Heroku: Go",
   "description": "Go Getting Started Example App",
   "scripts": {
-    "postdeploy": "bin/postdeploy.sh"
+    "postdeploy": "./bin/postdeploy.sh"
   },
   "keywords": [
     "getting-started",
