@@ -1,4 +1,4 @@
 # Path: bin/predeploy.sh
 #!/bin/sh
 
-echo "ABCDEFGHIJKLMNOPQRSTUVWXYZ" 
+echo "1234" 
