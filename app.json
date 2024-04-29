@@ -11,9 +11,7 @@
   "repository": "http://github.com/heroku/go-getting-started",
   "environments": {
     "test": {
-      "buildpacks": [
-        { "url": "https://github.com/heroku/heroku-buildpack-ci-postgresql" }
-      ]
+      "addons": ["heroku-postgresql:in-dyno"],
     }
   }
 }
