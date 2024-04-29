@@ -11,7 +11,7 @@
   "repository": "http://github.com/heroku/go-getting-started",
   "environments": {
     "test": {
-      "addons": ["heroku-postgresql:in-dyno"],
+      "addons": ["heroku-postgresql:in-dyno"]
     }
   }
 }
